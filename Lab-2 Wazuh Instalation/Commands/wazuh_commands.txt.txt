@@ -1,0 +1,11 @@
+sudo apt update && sudo apt upgrade -y
+
+ip a
+
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+
+sudo bash ./wazuh-install.sh -a
+
+sudo systemctl status wazuh-manager
+
+sudo systemctl status wazuh-dashboard
