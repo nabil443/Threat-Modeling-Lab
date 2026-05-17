@@ -22,7 +22,7 @@ To install and configure Ubuntu Server in VirtualBox for cybersecurity lab activ
 ### Step 3: Configure Resources
 
 * RAM: 4 GB
-* Storage: 25 GB
+* Storage: 40 GB
 * Network: Bridged Adapter
 
 ### Step 4: Install Ubuntu Server
