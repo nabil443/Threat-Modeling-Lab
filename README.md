@@ -200,18 +200,30 @@ After completing this lab, I learned how to:
 
 ---
 
-# 📌 Future Improvements
+# 🚀 Future Improvements
 
-- Active Response Automation
-- Email Alert Notifications
-- Slack Integration
-- Malware Detection Rules
-- Sigma Rule Integration
-- MITRE ATT&CK Mapping
-- Multi-Agent Deployment
-- Custom Detection Rules
+The following enhancements are planned to extend this Security Monitoring Lab into a more advanced SOC environment:
 
----
+- Implement Security Orchestration, Automation and Response (SOAR) for automated incident response.
+- Integrate MISP (Malware Information Sharing Platform) as an external Threat Intelligence Platform (TIP).
+- Configure automated IOC (Indicators of Compromise) enrichment using MISP.
+- Correlate Wazuh alerts with MISP threat intelligence feeds.
+- Enable automated malware hash reputation checks using multiple threat intelligence sources.
+- Develop custom detection and correlation rules for advanced attack detection.
+- Implement MITRE ATT&CK mapping for improved threat classification.
+- Integrate Sigma rules for standardized detection capabilities.
+- Configure Active Response to automatically isolate or block malicious activities.
+- Add email notifications for critical security alerts.
+- Integrate Slack or Microsoft Teams for real-time SOC notifications.
+- Deploy additional Windows and Linux endpoints for multi-agent monitoring.
+- Monitor web server, SSH, and authentication logs for suspicious activities.
+- Integrate Suricata IDS for network intrusion detection.
+- Add YARA-based malware detection and scanning.
+- Develop custom SOC dashboards for security analytics and reporting.
+- Integrate TheHive and Cortex for incident management and automated analysis.
+- Implement compliance monitoring (PCI-DSS, CIS Benchmarks, ISO 27001).
+- Create automated reporting and alert summarization.
+- Build a complete Enterprise SOC Lab architecture for blue team practice.
 
 # 👨‍💻 Author
 
